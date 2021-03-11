@@ -3,6 +3,7 @@
 This project will use two two API routes:
 1. get /items
 like the sample data
+```json
 [{
     id: "0",
     name: "FeatureA",
@@ -43,16 +44,18 @@ like the sample data
     name: "FeatureC"
   }
   ]
+```
 2. post /items
+```json
 {
 "selected":[1,2,3,...]
 "price": 50
 }
+```
 
 ## Interface
 For the ReactJS interface, it doesn't use the APIs but use a sample data instead, though the code for get/post using AXIOS is written.
 
 ## How to run it
-first, npm install
-then, npm start
+Run 'npm install', then 'npm start'
 
